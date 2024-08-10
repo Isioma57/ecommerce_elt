@@ -1,0 +1,6 @@
+apache-airflow==2.9.3
+apache-airflow-providers-postgres
+apache-airflow-providers-google
+dbt-bigquery
+python-dotenv
+pandas
