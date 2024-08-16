@@ -1,0 +1,30 @@
+# Ignore Python virtual environment directory
+mvenv/
+
+# Ignore environment variables file 
+.env
+
+# Ignore Terraform state files 
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore Terraform lock file and .terraform directory
+.terraform/
+.terraform.lock.hcl
+
+# Ignore dbt logs directory
+dbt/logs/
+dbt/dbt_workspace/logs/
+
+# Ignore configuration files in the airflow_infra config directory
+airflow_infra/config/*.json
+airflow_infra/dags/__pycache__
+
+# Ignore logs directory in the airflow_infra directory
+airflow_infra/logs/
+
+# Ignore source data directory in the postgres directory
+postgres_infra/source_data/
+
+# Ignore dbt target folder
+target/
